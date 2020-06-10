@@ -1,7 +1,11 @@
 cradle:
   cabal:
-    - path: "."
+    - path: "src"
       component: "lib:myproj"
+    - path: "app"
+      component: "myproj-exe"
+    - path: "test"
+      component: "myproj-test"
 
 dependencies:
   - package.yaml
