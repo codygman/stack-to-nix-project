@@ -1,12 +1,12 @@
 cradle:
-  multi:
-    - path: "./Setup.hs"
-      config: { cradle: { none:  } }
-    - path: "./"
-      config: { cradle: { cabal:
-                            [ { path: "./src", component: "lib:myproj" }
-                            , { path: "./app", component: "myproj-exe" }
-                            , { path: "./test", component: "myproj-test" } ] } }
+  cabal:
+    - path: "src"
+      component: "lib:myproj"
+    - path: "app"
+      component: "myproj-exe"
+    - path: "test"
+      component: "myproj-test"
+
 dependencies:
   - package.yaml
   - shell.nix
