@@ -1,0 +1,9 @@
+cradle:
+  cabal:
+    - path: "."
+      component: "lib:myproj"
+
+dependencies:
+  - package.yaml
+  - shell.nix
+  - default.nix
