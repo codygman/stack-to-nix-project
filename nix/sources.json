@@ -1,6 +1,6 @@
 {
     "nixpkgs": {
-        "branch": "NixOS/20.03",
+        "branch": "haskell-updates",
         "description": "Nix Packages collection",
         "homepage": null,
         "owner": "NixOS",
