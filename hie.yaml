@@ -2,8 +2,11 @@ cradle:
   cabal:
     - path: "."
       component: "lib:myproj"
+    - path: "."
+      component: "exe:myproj"
 
 dependencies:
   - package.yaml
   - shell.nix
   - default.nix
+  - myproj.cabal
