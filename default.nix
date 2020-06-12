@@ -15,10 +15,10 @@ let
         enableExecutableProfiling = false;
         doHaddock = false;
         shellHook = ''
-          hpack .
+          hpack --hash .
         '';
         preConfigure = ''
-          hpack .
+          hpack --hash .
         '';
         buildTools = [ brittany
                        cabal-install
