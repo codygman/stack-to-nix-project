@@ -14,12 +14,6 @@ let
         enableLibraryProfiling = false;
         enableExecutableProfiling = false;
         doHaddock = false;
-        shellHook = ''
-          hpack --hash .
-        '';
-        preConfigure = ''
-          hpack --hash .
-        '';
         buildTools = [ brittany
                        cabal-install
                        ghcid
