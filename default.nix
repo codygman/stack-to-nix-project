@@ -24,6 +24,7 @@ let
                        cabal-install
                        ghcid
                        ghcide
+                       hoogle
                        hlint
                        hpack
                      ];
